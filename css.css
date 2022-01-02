@@ -1,0 +1,67 @@
+.wrapper {
+    border: 4px solid #c918c9;
+    width: 600px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #d9c5d9;
+}
+
+.input {
+    border: 0px;
+    width: 500px;
+    height: 30px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+input:focus{
+    border: 0px;
+    background-color: #ebf2fc;
+}
+
+.label {
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.gender {
+    display: flex;
+}
+
+select {
+    border: 0px;
+    width: 500px;
+    height: 30px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding: 3px;
+}
+
+.checkbox {
+    width: 30px;
+    height: 30px;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.bt-submit {
+    width: 100px;
+    height: 40px;
+    border: 2px solid #c918c9;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #c918c9;
+}
+
+.bt-submit:hover {
+    background-color: white;
+    cursor: pointer;
+}
